@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Teste imagens , áudios e vídeos</title>
+</head>
+<body>
+
+    <h1>Teste de vídeos</h1>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ejkb_YpuHWs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 
+    <h1>Teste de áudio</h1>
+    <audio  preload="metadata" controls autoplay loop>
+        <source src="audio/guanacast-33.mp3" type="audio/mp3">
+            <p>Seu navegador não suporta áudio <a href="audio/guanacast-33.mp3" download ="guanacast-33/mp3" type="audio/mp3"></a></p>
+    </audio>
+  
+    <h1>Teste de imagem</h1>
+    <picture>
+        <source media="(max-width:750px)" srcset="imagem/grimjoow-p.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagem/grimjoow-m.png" type="image/png">
+        <img src="imagem/grimjoow-g.png" alt="A imagem no tamanho original">
+    </picture> 
+    
+</body>
+</html>

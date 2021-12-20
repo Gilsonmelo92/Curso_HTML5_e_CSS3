@@ -1,0 +1,42 @@
+.exemplo {
+    color: white;
+    text-align: justify;
+}
+
+.exemplo::after{
+    content: '';
+    display: inline-block;
+    width: 100%;
+   
+}
+
+.autura{
+   
+    display: inline-block;
+    width: 20%;    
+    height: 60px; 
+}
+
+.primeiro-item {
+    background-color: blue;
+}
+
+.segundo-item{
+    background-color: red;
+  
+
+
+}
+.terceiro-item{
+    background-color: green;
+  
+}
+
+
+
+/*
+ propridade align= justify ; justifica a primeira e a segunda linha , mas com a execesão da última não.
+
+
+
+*/

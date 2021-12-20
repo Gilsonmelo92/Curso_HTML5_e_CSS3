@@ -1,0 +1,30 @@
+.exemplo {
+    color: white;
+    text-align: center;
+
+    
+
+}
+
+.autura{
+    width: 33%;     /*  não funciona */
+    height: 150px;  /*  não funciona */
+    display: inline; /*a propriedade inline não permite que coloquemos altura e largura (width e height)nos elementos */
+}
+
+.primeiro-item {
+    background-color: blue;
+}
+
+.segundo-item{
+    background-color: red;
+
+}
+.terceiro-item{
+    background-color: green;
+}
+
+
+/*
+ Uma vez que você pega um elemento e coloca display inline nele ele também ganha um comportamento de uma palavra  
+*/

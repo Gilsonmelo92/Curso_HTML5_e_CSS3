@@ -1,0 +1,38 @@
+.exemplo {
+    color: white;
+    text-align: center;
+
+    
+
+}
+
+.autura{
+   
+    display: block; /*a propriedade block permite que coloquemos altura e largura (width e height)nos elementos */
+    width: 33%;    
+    height: 150px; 
+}
+
+.primeiro-item {
+    background-color: blue;
+}
+
+.segundo-item{
+    background-color: red;
+    margin-left: auto;
+
+
+}
+.terceiro-item{
+    background-color: green;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*
+ Uma vez que você pega um elemento e coloca display block ele oculpa a linha toda.(não é possivel ter outro elemento ao lado )  
+ para certa um é nescessário ter uma largura (width)
+
+
+*/

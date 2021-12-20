@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento: ratechange </title>
+    <style>
+        video{
+            width: 80vw;
+        }
+    </style>
+    
+</head>
+<body>
+    <select onchange="setRate(event)">
+        <option value="0.25">0.25</option>
+        <option value="0.50">0.50</option>
+        <option value="0.75">0.75</option>
+        <option  selected value="1.0">1.0</option>
+        <option value="1.25" >1.25</option>
+        <option value="1.50" >1.50</option>
+        <option value="1.75">1.75</option>
+    </select>
+    
+        <video
+        
+        src="https://storage.googleapis.com/hcode-public-storage/videos/AV1_trailer.mp4"
+        controls  
+        onloadeddata="debug(event)"
+        onloadedmetadata="debug(event)"
+        ondurationchange="debug(event)"
+        oncanplay="debug(event)"
+        onloadstart="debug(event)"
+        onpause="debug(event)"
+        onplay="debug(event)" 
+        onplaying="debug(event)"
+        onprogress="debug(event)"
+        onratechange="debug(event)"
+
+        >
+
+<!--  -->
+        
+    
+        
+        </video>
+    
+    
+    
+    
+    <!--  -->
+
+    
+    <script>
+
+        
+
+
+        function debug (e){
+           
+          console.log('Evento: ' + e.type);
+         
+    }  
+    function setRate(e){
+
+        let videoEl = document.querySelector('video');
+        let value = e.target.value;
+       
+
+        videoEl.playbackRate = parseFloat(value);
+
+    }
+
+
+
+    </script>
+</html>

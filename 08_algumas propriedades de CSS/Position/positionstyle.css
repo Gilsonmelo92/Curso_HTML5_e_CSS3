@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* static*/
+.container_static{
+    position: static;
+    width: 400px;
+    height: 400px;
+    background: blue;
+}
+
+.box_static{
+    width: 200px;
+    height: 200px;
+    background: red;
+}
+/* fixed*/
+.fixed{
+    height: 300vh;
+}
+
+.container_fixed{
+    position: fixed;
+    width: 400px;
+    height: 400px;
+    background: blue;
+}
+
+.box_fixed{
+    width: 200px;
+    height: 200px;
+    background: red;
+}
+
+/*relative*/
+.container_relative{
+    position: relative;
+    left: 200px;
+    top: 150px;
+    margin-top:20vh;
+    width: 400px;
+    height: 400px;
+    background: blue;
+}
+
+.box_relative{
+    width: 200px;
+    height: 200px;
+    background: red;
+}
+
+/*absolute*/
+.container_absolute{
+    margin-top:20vh;
+    width: 400px;
+    height: 400px;
+    background: blue;
+}
+
+.box_absolute{
+    
+    width: 200px;
+    height: 200px;
+    background: red;
+}
+
+
+/*sticky*/
+
+.sticky{
+    height: 300vh;
+}
+.container_sticky{
+    margin-top:20vh;
+    top: 0;
+    position: sticky;
+    width: 400px;
+    height: 400px;
+    background: blue;
+}
+
+.box_sticky{
+    width: 200px;
+    height: 200px;
+    background: red;
+}

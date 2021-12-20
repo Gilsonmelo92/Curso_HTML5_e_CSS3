@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event: pageshow</title>
+</head>
+<body onpageshow="debug(event)" onload="debug(event)">
+   <!--  load acontece primeiro ,  os dados são carregados primeiro no navegador os dados chegam ao carregador. depois que chega no navegador a página é renderizada e exibida no evento pageshow   -->
+    
+    <script>
+        function debug (e){
+          console.log('Evento: ' + e.type);
+          alert('Evento: ' + e.type);
+    }
+
+    </script>
+</body>
+</html>
