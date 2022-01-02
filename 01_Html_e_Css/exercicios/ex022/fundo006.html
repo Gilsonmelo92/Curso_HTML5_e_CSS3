@@ -8,20 +8,32 @@
     <title>Fundo fixo de tela </title>
     <style>
         body{
-            height: 100vh;
-            background-color: black;
-            background-image: url("imagens/wallpaper002.jpg");
-            background-position: center center;
-            background-repeat: no-repeat;
-           /* background-size: contain; mostrar 100% da imagem */
-            background-size: cover; /*Cobrir a tela 
+        height: 100vh;
+        background-color: black;
+        background-image: url("imagens/wallpaper002.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain; /* mostrar 100% da imagem */
+        background-size: cover; /*Cobrir a tela inteira */
+        background-attachment: fixed; 
+
+        /*  shorthand - background
+
+        color > imange > position > repeat > [size] > attachment 
+
+        OBS no [size] = para funcionar na shorthand ele tem que ser retirado, mesmo estando correto o caminho acima. 
+        
+        
+*/
+        
+    /*    background: black url("imagens/wallpaper002.jpg") center center no-repeat [size - cover ] fixed;  */
+
             
-            inteira */
         }
         main{
             
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border-radius: 15px;
@@ -38,6 +50,27 @@
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias natus id accusamus dolor ipsum, fugit modi quia ipsam eius voluptatibus ab quis dicta ad ipsa facere sequi autem voluptates omnis?
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis omnis dolore porro suscipit. Explicabo sed recusandae magni fuga soluta quibusdam possimus, enim minus vel sit ipsum magnam, illum, modi impedit!
         </p>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, iure eligendi. Voluptate cupiditate, modi beatae nobis dolorum, ratione doloribus libero dignissimos velit enim veritatis maiores similique quasi! Laboriosam, dolore illum!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias natus id accusamus dolor ipsum, fugit modi quia ipsam eius voluptatibus ab quis dicta ad ipsa facere sequi autem voluptates omnis?
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis omnis dolore porro suscipit. Explicabo sed recusandae magni fuga soluta quibusdam possimus, enim minus vel sit ipsum magnam, illum, modi impedit!
+        </p>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, iure eligendi. Voluptate cupiditate, modi beatae nobis dolorum, ratione doloribus libero dignissimos velit enim veritatis maiores similique quasi! Laboriosam, dolore illum!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias natus id accusamus dolor ipsum, fugit modi quia ipsam eius voluptatibus ab quis dicta ad ipsa facere sequi autem voluptates omnis?
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis omnis dolore porro suscipit. Explicabo sed recusandae magni fuga soluta quibusdam possimus, enim minus vel sit ipsum magnam, illum, modi impedit!
+        </p>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, iure eligendi. Voluptate cupiditate, modi beatae nobis dolorum, ratione doloribus libero dignissimos velit enim veritatis maiores similique quasi! Laboriosam, dolore illum!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias natus id accusamus dolor ipsum, fugit modi quia ipsam eius voluptatibus ab quis dicta ad ipsa facere sequi autem voluptates omnis?
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis omnis dolore porro suscipit. Explicabo sed recusandae magni fuga soluta quibusdam possimus, enim minus vel sit ipsum magnam, illum, modi impedit!
+        </p>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, iure eligendi. Voluptate cupiditate, modi beatae nobis dolorum, ratione doloribus libero dignissimos velit enim veritatis maiores similique quasi! Laboriosam, dolore illum!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias natus id accusamus dolor ipsum, fugit modi quia ipsam eius voluptatibus ab quis dicta ad ipsa facere sequi autem voluptates omnis?
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis omnis dolore porro suscipit. Explicabo sed recusandae magni fuga soluta quibusdam possimus, enim minus vel sit ipsum magnam, illum, modi impedit!
+        </p>
+
     </main>
     
 </body>
