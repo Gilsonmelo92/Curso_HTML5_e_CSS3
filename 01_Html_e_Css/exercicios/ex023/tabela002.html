@@ -14,6 +14,7 @@
         table{
             width: 500px;
             border-collapse: collapse; 
+            position: relative;
            
         }
         caption{
@@ -37,6 +38,12 @@
             background-color: gray;
             color: black;
         }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
         .num{
             text-align: right;
         }
@@ -107,6 +114,26 @@
                 <td class="num"> 17.254.945</td> <!-- dados -->
             </tr> <!--fechamento Linha -->
 
+            <tr> <!-- Linha -->
+                <td> Céara </td> <!-- dados -->
+                <td class="num"> 16.234.945</td> <!-- dados -->
+            </tr> <!--fechamento Linha -->
+
+            <tr> <!-- Linha -->
+                <td> Amazonas </td> <!-- dados -->
+                <td class="num"> 13.254.515</td> <!-- dados -->
+            </tr> <!--fechamento Linha -->
+
+            <tr> <!-- Linha -->
+                <td> Paraíba </td> <!-- dados -->
+                <td class="num"> 12.259.245</td> <!-- dados -->
+            </tr> <!--fechamento Linha -->
+
+            <tr> <!-- Linha -->
+                <td> Tocantins </td> <!-- dados -->
+                <td class="num"> 10.576.524</td> <!-- dados -->
+            </tr> <!--fechamento Linha -->
+
         </tbody><!-- fechamento da tag corpo da tabela -->
 
         <tfoot> <!-- rodapé da tabela -->
@@ -115,13 +142,14 @@
                 <th scope="row"> <!-- Título  -->
                     Total de Habitantes 
                 </th>
-                <td class="num"> <strong>84.342.785</strong> </td> <!-- dados -->
+                <td class="num"> <strong> 184.342.785</strong> </td> <!-- dados -->
             </tr>
 
         </tfoot> <!-- Fechamento do rodapé da tabela -->
 
      </table>
 
+     
 
     
 </body>
