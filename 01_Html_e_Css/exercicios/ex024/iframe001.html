@@ -6,24 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/01_Html_e_Css/exercicios/favicon.ico" type="image/x-icon">
     <title> Estudo de iframe</title>
+
+        <style>
+
+            /* As folhas de CSS são soberanas */
+            iframe{
+                width: 500px;
+                height: 350px;
+                border: 2px dashed  blue; /*para personalizar a borda. */
+
+            }
+
+
+        </style>
 </head>
 <body>
     <h1>Testando o uso de um iframe</h1>
    
+        <!-- 
+            Tamanho padrão de iframe 300x150px 
+            
+            Propriedade scolling = no / auto / yes 
+            auto é o padrão.
+
+            Propriedade frameborder = personaliza a borda - só aceita os valores 0 e 1, para personalizar, precisa utilizar o css.                             
+        
+        -->
+
         <p>
             Acessando o site do 
             
-            <iframe src="https://cursoemvideo.com" frameborder="0">
-
+            <iframe src="https://cursoemvideo.com" frameborder="0" height="300px" width="300px">
+                <a href="https://cursoemvideo.com" target="_blank"> Curso em vídeo</a>
             </iframe>
             
             para aprender a programar.
         </p>
 
+
+
         <p>
             Talvez o site do
             
-            <iframe src="https://google.com.br" frameborder="0"></iframe>
+            <iframe src="https://gustavoguanabara.github.io/" frameborder="0" height="300px" width="300px" scolling="no" > <!-- Para trava a barra de rolagem, --> 
+
+             <a href="https://gustavoguanabara.github.io/" target="_blank"> GitHub</a>
+
+
+            </iframe>
+
+          
 
             é muito legal
 
