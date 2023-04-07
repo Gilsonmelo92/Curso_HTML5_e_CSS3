@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/01_Html_e_Css/exercicios/favicon.ico" type="image/x-icon">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>
+        Meu primeiro Formulário
+    </h1>
+
+    <form action="cadastro.php" autocomplete="off" method="post"> 
+        <!-- autocomplete="off" desliga a caixa de sugestão -->
+       
+        <!-- action  é uma ação disparanda quando clicar no submit para enviar-->
+       
+        <!-- todo formulário tem que esta entre as tags. -->
+
+        <!-- label é etiqueta -->
+
+        <!-- 
+            Existe dois métodos de envio de um formulário. 
+                Get: 
+                    Padraão do navegador 
+                      envia os dados pela URL do navegador. 
+                        Não utilizar quando os dados são sensíveis 
+                        Só pode ser enviado até 3000 bytes
+                        Não enviar fotos e arquivos. 
+
+                Post:
+                    Não envia os dados pela URL do navegador. 
+                    mais é possível verificar pelo caminho 
+                    inspecionar > network > hearder.  
+                    envio de arquivos
+        -->
+
+        <p>
+            <label for="inome"> Nome: </label>
+            <input type="text" name="Nome" id="inome" placeholder="Digite aqui."> 
+        </p>
+
+        <p>
+            <label for="isobrenome">Sobrenome: </label>
+            <input type="text" name="Sobrenome" id="isobrenome" placeholder="Digite aqui. ">
+        </p>
+
+        <p> 
+            <input type="submit" value="Enviar">
+        </p>
+
+    </form>
+
+</body>
+</html>
