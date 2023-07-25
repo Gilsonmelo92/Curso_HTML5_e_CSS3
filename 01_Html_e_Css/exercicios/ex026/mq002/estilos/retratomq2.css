@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+/* Retrato - pé modo portrait  */
+
+body{
+
+    background-image: url(../img-mq2/cev-portrait.jpg);
+    background-position: center bottom;
+}

@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+/*Paisagem - deitado  modelo landscape*/
+
+body{
+    background-image: url(../img-mq2/cev-landscape.jpg);
+    background-position: left bottom; /* vai ficar grudado para parte de baixo do site */
+}
